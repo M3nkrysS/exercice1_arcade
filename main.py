@@ -73,67 +73,6 @@ class MyGame(arcade.Window):
             self.number_of_repeats += 1
         # Invoquer la méthode "draw()" de vos sprites ici.
 
-    def on_update(self, delta_time):
-        """
-        Toute la logique pour déplacer les objets de votre jeu et de
-        simuler sa logique vont ici. Normalement, c'est ici que
-        vous allez invoquer la méthode "update()" sur vos listes de sprites.
-        Paramètre:
-            - delta_time : le nombre de milliseconde depuis le dernier update.
-        """
-        pass
-
-    def on_key_press(self, key, key_modifiers):
-        """
-        Cette méthode est invoquée à chaque fois que l'usager tape une touche
-        sur le clavier.
-        Paramètres:
-            - key: la touche enfoncée
-            - key_modifiers: est-ce que l'usager appuie sur "shift" ou "ctrl" ?
-
-        Pour connaître la liste des touches possibles:
-        http://arcade.academy/arcade.key.html
-        """
-        pass
-
-    def on_key_release(self, key, key_modifiers):
-        """
-        Méthode invoquée à chaque fois que l'usager enlève son doigt d'une touche.
-        Paramètres:
-            - key: la touche relâchée
-            - key_modifiers: est-ce que l'usager appuie sur "shift" ou "ctrl" ?
-        """
-        pass
-
-    def on_mouse_motion(self, x, y, delta_x, delta_y):
-        """
-        Méthode invoquée lorsque le curseur de la souris se déplace dans la fenêtre.
-        Paramètres:
-            - x, y: les coordonnées de l'emplacement actuel de la sourir
-            - delta_X, delta_y: le changement (x et y) depuis la dernière fois que la méthode a été invoqué.
-        """
-        pass
-
-    def on_mouse_press(self, x, y, button, key_modifiers):
-        """
-        Méthode invoquée lorsque l'usager clique un bouton de la souris.
-        Paramètres:
-            - x, y: coordonnées où le bouton a été cliqué
-            - button: le bouton de la souris appuyé
-            - key_modifiers: est-ce que l'usager appuie sur "shift" ou "ctrl" ?
-        """
-        pass
-
-    def on_mouse_release(self, x, y, button, key_modifiers):
-        """
-        Méthode invoquée lorsque l'usager relâche le bouton cliqué de la souris.
-        Paramètres:
-            - x, y: coordonnées où le bouton a été relâché
-            - button: le bouton de la souris relâché
-            - key_modifiers: est-ce que l'usager appuie sur "shift" ou "ctrl" ?
-        """
-        pass
-
 
 def main():
     """ Main method """
